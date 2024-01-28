@@ -5,6 +5,11 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-either = "1.9.0"
-option-operations = "0.5.0"
+[[bin]]
+name = "day_01_a"
+path = "src/bin/day_01_a.rs"
+
+[[bin]]
+name = "day_02_a"
+path = "src/bin/day_02_a.rs"
+
